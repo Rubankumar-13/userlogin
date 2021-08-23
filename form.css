@@ -1,0 +1,74 @@
+body{
+    background:url(./loginback\ \(1\).webp);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 35%;
+    padding-top: 10%;
+}
+.userinput {
+    color: black;
+    background-color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+    width: 40%;
+    height: 30%;
+    padding: 10px;
+    background-color: #e0e0eb;
+    opacity: 0.8;
+    border:none;
+    
+    
+}
+.userinput h1{
+    background-color: darkslategrey;
+}
+.userinput .name h1{
+    background-color: darkred;
+}
+
+#name{
+    width: 100%;
+    height: 30px;
+    background-color: dimgrey;
+    color: darkslategray;
+    font-weight: bold;
+}
+#password{
+    width: 100%;
+    height: 30px;
+    background-color: dimgrey;
+    color: darkslategray;
+}
+#submit{
+    background-color: darkslategray;
+    color: white;
+    padding: 8px;
+    margin: 10px;
+    transform: translate(160%,40%);
+}
+@media screen  and (max-width:800px){
+    body{
+        color: darkblue;
+        height: 33rem;
+        padding: 1rem;
+        padding-left: 10%;
+        padding-top: 7%;
+        
+    }
+    .userinput{
+       width: 75%; 
+       height: 55%;
+    }
+    #name{
+        width: 90%;
+        height: 25px;
+    }
+    #password{
+        width: 90%;
+        height: 25px;
+    }
+    #submit{
+        padding: 6px;
+        align-items: center;
+    }
+}
